@@ -1,0 +1,21 @@
+git init
+
+#desde la carpeta donde esté el fichero
+git add README.md
+
+#-m/essage indica descripción del fichero
+git commit -m "test"
+
+#vincular el repositorio local con el remoto
+git remote add origin https://github.com/juudexx/PROJECTE_02.git
+
+#subir a github
+git push -u origin master
+
+
+
+
+add -> commit -> push
+#muestra en verde los ficheros que se han añadido
+
+git status 
