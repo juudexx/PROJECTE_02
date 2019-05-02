@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#comprovar que le usuario es root
+
+if [[ "${UID}" -eq 0 ]]; then
+    echo 'ets el root.'
